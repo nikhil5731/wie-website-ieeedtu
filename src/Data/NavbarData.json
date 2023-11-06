@@ -1,0 +1,36 @@
+{
+    "data":[
+        {
+            "name":"Home",
+            "link":"#home"
+        },
+        {
+            "name":"About Us",
+            "link":"#about"
+        },
+        {
+            "name":"IEEE DTU",
+            "link":"#ieeedtu"
+        },
+        {
+            "name":"Events",
+            "link":"#events"
+        },
+        {
+            "name":"Council",
+            "link":"#council"
+        },
+        {
+            "name":"Timeline",
+            "link":"#timeline"
+        },
+        {
+            "name":"Award",
+            "link":"#award"
+        },
+        {
+            "name":"Contact",
+            "link":"#contact"
+        }
+    ]
+}

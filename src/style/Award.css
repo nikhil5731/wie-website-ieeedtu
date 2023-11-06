@@ -1,0 +1,58 @@
+.Award{
+    display: flex;
+    /* justify-content: center; */
+
+}
+.Upper-Container{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    width: 25%;
+    height: 25vw;
+    background-color: #050c59;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    border-radius: 50%;
+    border: #fff 8px solid;
+    box-shadow: 1px 1px 10px gray;
+}
+.Postion{
+    font-size: 30px;
+    color:rgb(253, 246, 249);
+
+    font-weight: 700;
+    margin: 3px 0px;
+}
+.Lower-Container{
+    width: 40%;
+    margin: 20px auto;
+}
+.Award-Content{
+    text-align: center;
+} 
+@media screen and (max-width: 850px){
+    .Upper-Container{
+        width: 212.5px;
+        height: 212.5px;
+    }
+}
+@media screen and (min-width:1200px ) {
+    .Upper-Container{
+        width: 300px;
+        height: 300px;
+    }
+    .Lower-Container{
+        width: 480px;
+    }
+}
+@media screen and (max-width : 600px) {
+    .Lower-Container{
+        width: 90%;
+    }
+    .Award-Content{
+        text-align: justify;
+    }
+}
