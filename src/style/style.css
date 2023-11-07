@@ -1460,3 +1460,6 @@ body {
   
     display: none;
   }
+  .eveimg{
+    border: 2px solid rgb(5, 12, 89);
+  }
