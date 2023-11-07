@@ -17,16 +17,16 @@
             "link":"#events"
         },
         {
+            "name":"Award",
+            "link":"#award"
+        },
+        {
             "name":"Council",
             "link":"#council"
         },
         {
             "name":"Timeline",
             "link":"#timeline"
-        },
-        {
-            "name":"Award",
-            "link":"#award"
         },
         {
             "name":"Contact",
