@@ -12,7 +12,7 @@ const styles = {
       "text-[rgb(5,12,89)] font-black md:text-[45px] sm:text-[35px] xs:text-[30px] text-[25px]",
     sectionSubText:
     // ""
-      "sm:text-[18px] text-[14px] text-[rgba(5,12,89,0.6)] uppercase tracking-wider",
+      "sm:text-[19px] text-[14px] text-[rgba(5,12,89,0.6)] uppercase tracking-wider",
   };
   
   export { styles };

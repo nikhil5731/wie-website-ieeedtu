@@ -11,7 +11,7 @@ const Award=()=>{
                 <p className="DSCAA">2022 - The Darrel Chong Student Activity Award</p>
             </div>
             <div className="Lower-Container">
-                <p className="Award-Content">
+                <p className="Award-Content hcontentsub">
                 The purpose of this recognition system serves to change the mindset of our student groups, from being number-driven to becoming value-driven and to acknowledge exemplary student activities around the world. The goal is to improve the quality of activities and to foster knowledge sharing among students.
                 </p>
             </div>

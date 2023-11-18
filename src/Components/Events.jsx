@@ -61,12 +61,12 @@ const Events = () => {
   }, [window.innerWidth]);
 
   return (
-    <div id="events" className="row clients-outer px-[30px] bg-[rgb(253, 246, 249)] mt-6 w-full" data-aos="fade-up">
+    <div id="events" className="row clients-outer eventspadding bg-[rgb(253, 246, 249)] mt-6 w-full" data-aos="fade-up">
       <div className="col-full p-0 eventbox1">
         <h2 className="text-2xl font-bold headings mb-4 headings p-0">Our Events</h2>
         <Slider {...settings}>
           {eventsData.map((event, index) => (
-            <div key={index} className="clients__slide flex space-x-4 p-4 ">
+            <div key={index} className=" clients__slide flex space-x-4 p-4 ">
               <p>
                 <div className="bg-[rgba(110,43,127,1)] p-4 flex-1 transition-transform transform hover:scale-105 h-[630px] eventbox2 border-4 border-white">
                   <img

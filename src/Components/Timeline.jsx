@@ -21,7 +21,7 @@ const ExperienceCard = ({ timeline }) => {
         // border:"1px solid rgb(223, 138, 244)"
       }}
       date={timeline.date}
-      dateClassName={ "text-[rgb(110,43,127)]" }
+      dateClassName={ "text-[17px] date-timeline" }
       contentArrowStyle={{ borderRight: "7px solid rgb(5,12,189)" }}
       iconStyle={{ background: timeline.icon, backgroundColor:"rgba(5,12,89)" }}
       icon={
@@ -35,11 +35,11 @@ const ExperienceCard = ({ timeline }) => {
       }
     >
       <div>
-        <h3 className=' experience-03 text-black opacity-80 text-[20px] font-bold'>
+        <h3 className=' experience-03 text-black opacity-80 text-[22px] font-bold'>
         {timeline.title}
         </h3>
         <p
-          className='text-[#353535] text-[16px] font-semibold'
+          className='text-[#353535] text-[17px] font-semibold'
           style={{ margin: 0 }}
         >
           {timeline.company_name}
@@ -49,7 +49,7 @@ const ExperienceCard = ({ timeline }) => {
         {timeline.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-[#555555] text-[14px] pl-1 tracking-wider'
+            className='text-[#555555] text-[16px] pl-1 tracking-wider'
           >
             {point}
           </li>
@@ -63,10 +63,10 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <h2 className={`${styles.sectionSubText} experiencep-01 text-[rgba(5,12,89,0.8)] text-center`} id="timeline">
+        <h2 className={`${styles.sectionSubText} experiencep-01 text-[rgba(5,12,89,0.8)] text-center wie-opp`} id="timeline">
           WIE Opportunities
         </h2>
-        <h3 className={`${styles.sectionHeadText} experiencep-02 text-center`}>
+        <h3 className={`${styles.sectionHeadText} experiencep-02 text-center headings-wie-opp`}>
           Timeline
         </h3>
       </motion.div>

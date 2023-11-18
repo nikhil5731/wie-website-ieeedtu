@@ -812,14 +812,29 @@ body {
   margin-bottom: 30px;
   font-family: "Arvo";
 }
-
+.headings-wie-opp{
+  font-size: 40px;
+  color: rgb(5, 12, 89);
+  font-weight: 700;
+  font-family: "Arvo";
+}
 .headings-ben {
   font-size: 40px;
   color: rgb(5, 12, 89);
   font-weight: 700;
   font-family: "Arvo";
 }
-
+.eventspadding{
+  padding-right:30px;
+}
+.wie-opp{
+  font-weight: 600;
+}
+.date-timeline{
+  font-size:17px;
+  /* display: none; */
+  color:rgb(110,43,127);
+}
 .about-content {
   color: black;
   margin-left: 30px;
@@ -828,6 +843,9 @@ body {
   grid-column: 1/ span 3;
   /* margin-right:16px; */
   /* background-color: pink; */
+  font-size: 17px;
+}
+.hcontentsub{
   font-size: 17px;
 }
 
