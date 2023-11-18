@@ -49,7 +49,7 @@ const ExperienceCard = ({ timeline }) => {
         {timeline.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className='text-[#555555] text-[16px] pl-1 tracking-wider'
+            className='text-[#555555]  pl-1 tracking-wider opp-cont-2'
           >
             {point}
           </li>

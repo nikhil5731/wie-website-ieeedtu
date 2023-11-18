@@ -803,7 +803,14 @@ body {
 .whitef {
   color: black;
 }
-
+.opp-cont-2{
+  font-size:16px;
+}
+@media all and (max-width:430px){
+  .opp-cont-2{
+    font-size:13px;
+  }
+}
 .headings {
   font-size: 40px;
   margin-left: 20px;

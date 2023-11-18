@@ -63,7 +63,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className='text-[rgb(253,246,249)] mx-4 text-md bsc'>
-                  Aanya
+                  Aanya Tiwari
                 </p>
                 <p className='text-[rgb(253,246,249)] mx-4 text-md bsc'>
                   <a aria-label="+91 95600 83110" href='https://wa.me/+919560083110?text=' target='_blank' rel='noreferrer' className='hover:text-[#08D4F8]'>+91 88269 78278</a>
