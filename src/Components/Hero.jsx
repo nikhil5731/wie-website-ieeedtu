@@ -105,13 +105,14 @@ const Hero = () => {
 
                     <div className={(window.innerWidth <= 520) ? `navcont2 z-[1000000]` : 'hidden'}>
                         <p className={`menuicon flex ${!cross ? '' : 'hidden'}`} onClick={() => { ccross(true) }}>
-                            <TfiMenu className='menuiconb' /><p className='menuicona text-[1.3rem]'>
+                            <TfiMenu className={` menuiconb ${!cross ? '' : 'hidden'}`} />
+                            <p className={`menuicona text-[1.3rem] ${!cross ? '' : 'hidden'} `}>
                                 MENU
                             </p>
                         </p>
-                        <p onClick={() => { ccross(false) }} className={`menuicon2 flex ${!cross ? 'hidden' : ''}`}>
-                            <ImCross className='menuiconb' />
-                            <p className='menuicona text-[1.3rem]'>
+                        <p onClick={() => { ccross(false) }} className={`menuicon2 flex ${!cross?'hidden':''}`}>
+                            <ImCross className={`menuiconb ${!cross?'hidden':''}`} />
+                            <p className={`menuicona text-[1.3rem] ${!cross?'hidden':''}`}> 
                                 CLOSE
                             </p>
                         </p>
