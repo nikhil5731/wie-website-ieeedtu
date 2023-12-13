@@ -27,7 +27,7 @@ const Council = () => {
               <img src={Chair} className='imgs' />
               <div class="description">
                 <h5>RISHI MAHESHWARI</h5>
-                <p>CHAIRERSON IEEE DTU WIE</p>
+                <p>CHAIRPERSON IEEE DTU WIE</p>
                 <span className='flex1'>
                   <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/maheshwarixd/' target='_blank' rel='noreferrer'>
                     <BsInstagram className='text-[20px] chairlinks' />
@@ -45,7 +45,7 @@ const Council = () => {
                 <h5>KAUSTUBH KAMBIRI</h5>
                 <p className='h52'>
                 <p>
-                Vice-CHAIRPERSON IEEE DTU WIE
+                VICE-CHAIRPERSON IEEE DTU WIE
                 </p>
                 </p>
                 <span className='flex1'>
