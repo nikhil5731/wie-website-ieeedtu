@@ -1,5 +1,13 @@
 import React from 'react'
 import aboutimg from "../Assets/aboutimg.jpeg"
+
+/**
+ * This function contains info about IEEE DTU WIE
+ * @version 1.0.0
+ * @since 1.0.0
+ * @visibleName About IEEE DTU WIE
+ * @see https://www.ieeedtu.in
+ */
 const AboutUs = () => {
     return (
         <>
@@ -18,7 +26,6 @@ const AboutUs = () => {
                         <div className='about-img'>
                             <div className='aboutimgsub relative'>
                                 <img src={aboutimg} alt="aboutwieimg" className='' />
-                                {/* <img src={} className=''/> */}
                             </div>
                         </div>
                     </div>

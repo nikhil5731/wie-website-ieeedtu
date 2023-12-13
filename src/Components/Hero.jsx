@@ -3,6 +3,12 @@ import data from "../Data/NavbarData.json"
 import { TfiMenu } from "react-icons/tfi"
 import { ImCross } from "react-icons/im"
 
+/**
+ * This function contains Navbar
+ * @version 1.0.0
+ * @since 1.0.0
+ * @visibleName Hero Section
+ */
 const Hero = () => {
     const [rc1, crc1] = React.useState(47);
     const [gc1, grc1] = React.useState(3);
@@ -13,20 +19,15 @@ const Hero = () => {
     const [rc3, crc3] = React.useState(35);
     const [gc3, grc3] = React.useState(3);
     const [bc3, brc3] = React.useState(33);
-    const [showbar, cshowbar] = React.useState(false);
 
     const [show, cshow] = React.useState(false)
 
     const [arr, carr] = React.useState([]);
     const [arr1, carr1] = React.useState([]);
-    const [prevScrollPos, setPrevScrollPos] = React.useState(0);
-    const [visible, setVisible] = React.useState(true);
 
 
-    const [mshow, cmshow] = React.useState(true);
     const [mshow2, cmshow2] = React.useState(false);
 
-    const [scstart, cscstart] = React.useState(false);
 
 
     const [cross, ccross] = React.useState(false);
@@ -37,16 +38,7 @@ const Hero = () => {
         backgroundColor: 'grey',
         textAlign: 'center'
     }
-    const handleScroll = () => {
-        // find current scroll position
-        const currentScrollPos = window.pageYOffset;
 
-        // set state based on location info (explained in more detail below)
-        setVisible((prevScrollPos > currentScrollPos && prevScrollPos - currentScrollPos > 70) || currentScrollPos < 10);
-
-        // set state to new scroll position
-        setPrevScrollPos(currentScrollPos);
-    };
 
     const getrandom = (min, max) => {
         const floatRandom = Math.random()
@@ -58,9 +50,6 @@ const Hero = () => {
 
     React.useEffect(() => {
         fillclr();
-        // window.addEventListener('scroll', handleScroll);
-
-        // return () => window.removeEventListener('scroll', handleScroll);
     }, [])
 
     const fillclr = () => {
@@ -91,21 +80,6 @@ const Hero = () => {
             <div className={`${cross ? '' : 'hidden'} ${!cross ? 'hidden' : 'sideback'}`} onClick={() => { ccross(!true); cmshow2(!mshow2); }}>
             </div>
             <Backbox key={Math.random()} />
-            {/* <div className={`${!showbar?'':'hidden'} sidebar`}
-                wobble={`${scstart ? (mshow ? 'true' : 'false') : 'no'}`}
-                onAnimationEnd={() => {
-                    if (mshow2 === false) {
-                        cmshow(true);
-                    }
-                    else {
-                        cmshow(false);
-                    }
-
-                }}
-            ></div> */}
-            {/* <div className='heroimg'>
-                <img src={wietry} className='heroimg1' alt="sideimg"/>
-            </div> */}
             <div className='hero-umain'>
 
                 <div id="home" className={`hero-main ${show ? '' : ''}`} style={{
@@ -161,7 +135,7 @@ const Hero = () => {
                         <h1 className='heading-main'>
                             <span className='first-letter'>W</span>omen <br /><span className='first-letter'>&#160;I</span>n <br /><span className='first-letter'>E</span>ngineering
                         </h1>
-                        <div className='hero-subheading'>DELHI TECHNOLOGICAL<br/> UNIVERSITY</div>
+                        <div className='hero-subheading'>DELHI TECHNOLOGICAL<br /> UNIVERSITY</div>
                     </div>
                 </div>
             </div>
@@ -173,34 +147,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-
-
-{/* <div className="circle-spin">
-    <div className="content-circle">
-        <div id="chart-circle">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="400" viewPort="400, 400">
-                <circle width="40" height="400" className="circle" cx="200" cy="200" r="250" fill="none" strokeDasharray="2, 20" />
-            </svg> <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="400" height="400" viewPort="400, 400">
-                <circle width="40" height="400" className="circle" cx="200" cy="200" r="250" fill="none" strokeDasharray="2, 20" />
-            </svg>
-        </div>
-    </div>
-</div> */}
-// const backcolor = () => {
-//     var l1 = 16;
-//     var h1 = 76;
-//     var l2 = 1;
-//     var h2 = 13;
-//     var l3 = 33;
-//     var h3 = 124;
-//     crc1(getrandom(l1, h1));
-//     crc2(getrandom(l1, h1));
-//     crc3(getrandom(l1, h1));
-//     grc1(getrandom(l2, h2));
-//     grc2(getrandom(l2, h2));
-//     grc3(getrandom(l2, h2));
-//     brc1(getrandom(l3, h3));
-//     brc2(getrandom(l3, h3));
-//     brc3(getrandom(l3, h3));
-// }

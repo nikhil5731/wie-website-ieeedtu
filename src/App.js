@@ -12,6 +12,14 @@ import {
   Footer,
   Award,
 } from "./helper/Exporter";
+
+
+/**
+ * @version 1.0.0
+ * @since 1.0.0
+ * @visibleName App.js File
+ * @author Prashant (github: Prashant0664)
+ */
 function App() {
   const [crr, ccrr] = React.useState([]);
   const [crr2, ccrr2] = React.useState([]);
@@ -41,36 +49,13 @@ function App() {
       <div className="abso">
         <div>
           <Backbox2 />
-          {/* 
-
-hello
-
-Navbar R
-Hero/home R
-
-about wie T
-about IEEEdtu T
-wie Events T
-
-council // Done
-timeline //DONE
-contact us // Done
-footer // Done
-*/}
-
-          {/* <Eventsofwomenintech/> */}
           <Navbar />
           <Hero />
-          {/* <AboutUs/>
-        <IEEEdtu/>
-        */}
-          {/* vivek vihaan dsc */}
           <AboutUs />
           <IEEEdtu />
           <Events />
           <Award />
           <Council />
-          {/* <Gallary/> */}
           <Timeline />
           <Contact />
           <Footer />

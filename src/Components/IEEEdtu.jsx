@@ -1,4 +1,16 @@
 import aboutimg from "../Assets/grpimg2.jpeg"
+
+
+/// Below Function is used to add content about IEEE-DTU
+
+/**
+ * This function contains information about IEEE-DTU
+ * @version 1.0.0
+ * @since 1.0.0
+ * @visibleName About IEEE-DTU
+ * @see https://www.ieeedtu.in
+ */
+
 const IEEEdtu = () => {
     return (
         <>

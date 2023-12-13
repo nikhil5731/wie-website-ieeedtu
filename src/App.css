@@ -740,7 +740,12 @@ body {
   margin-top: 50px;
   list-style: none;
 }
-
+.event-head{
+  font-size: 18px;
+}
+.event-desc{
+  font-size: 15px;
+}
 .sideitem {
   cursor: pointer;
   font-size: 15px;
@@ -970,15 +975,13 @@ body {
   border-radius: 10px;
   overflow-y: scroll;
   width: 360px;
+  max-height: 580px;
 }
 
 .eventbox2:hover {
   box-shadow: 10px 22px 10px 1px rgba(36, 51, 222, 0.5);
 }
 
-.event-img {
-  /* overflow: hidden; */
-}
 
 @media screen and (max-width:1184px) {
   .eventbox2 {

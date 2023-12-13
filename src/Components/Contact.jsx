@@ -1,13 +1,23 @@
 import React from 'react'
 import "../style/contact.css"
+
+/**
+ * This function contains information of benefits of joining IEEE
+ * and google form to join IEEE
+ * @version 1.0.0
+ * @since 1.0.0
+ * @visibleName Join IEEE-DTU
+ */
+/// This section contans th einfo about Why IEEE-DTU and form to Join IEEE DTU
+/// This is divided into two parts:
+/// 1st part contains google form and second part contain Benefits of joining IEEE
+
 const Contact = () => {
   return (
     <>
-      {/* <section className='con-class2b'>
-
-    </section> */}
       <section id="contact" className="form con-class2b">
         <br /><br />
+        {/* Google form part */}
         <div className="grid-container_5">
           <div className="grid-item_5 con-class3">
             <div className="py-2">
@@ -21,6 +31,7 @@ const Contact = () => {
             </div>
             <iframe src="https://forms.gle/u164tfiTynR6oChs9" className='iframe-class' width="450" height="500" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
           </div>
+          {/* Benefits of Joining IEEE part */}
           <div className="grid-item_5">
             <div className="row section-header has-bottom-sep aos-init aos-animate" data-aos="fade-up">
               <div className="col-full">
