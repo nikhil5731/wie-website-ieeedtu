@@ -43,7 +43,7 @@ const Council = () => {
             <div class="ui-card">
               <img src={vchair} className='imgs' />
               <div class="description">
-                <h5>AASHNA MITTAL</h5>
+                <h5>ASHNA MITTAL</h5>
                 <p className='h52'>
                   <p>
                     VICE-CHAIRPERSON IEEE DTU WIE
