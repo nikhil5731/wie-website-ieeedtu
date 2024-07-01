@@ -1,5 +1,11 @@
 {
-    "eventsData" : [
+  "eventsData": [
+    {
+      "title": "Project Wievek (July 26-30, 2023)",
+      "description": "\"Inspire and Educate Young Minds\" - IEEE DTU, one of Delhi's largest IEEE Student branches, held awareness drives and workshops from 25-30th July 2023, interacting with over 100 students from classes X-XII. The event, Wievek, aimed to inspire and educate about engineering opportunities, featuring quizzes, games, and information on scholarships for overcoming financial barriers.",
+      "image": "img0",
+      "link": ""
+    },
     {
       "title": "Web Development Webinar (August 7th, 2021)",
       "description": "\"Unlocking Web Development Potential\" - IEEE DTU and IEEE DTU WIE, in collaboration with PrepBytes, hosted a transformative webinar. With Ms. Mamta Kumari, Co-Founder of PrepBytes, as the keynote speaker, 300 participants were guided on efficiently building quality web projects, tapping into the endless possibilities of web development.",

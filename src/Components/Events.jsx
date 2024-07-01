@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import img0 from '../Assets/wievek_image.JPG';
 import img1 from "../Assets/webinar_image.png";
 import img2 from '../Assets/sentinel_program_image.png';
 import img3 from '../Assets/ieee_day_image.jpeg';
@@ -30,6 +31,7 @@ const Events = () => {
     focusOnSelect: true,
   };
   const imgs = {
+    img0: img0,
     img1: img1,
     img2: img2,
     img3: img3,

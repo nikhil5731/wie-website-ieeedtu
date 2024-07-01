@@ -1,8 +1,9 @@
 import React from 'react'
 import "../style/council.css"
-import Chair from "../Assets/council/Rishi.jpeg"
-import vchair from "../Assets/council/Kaustubh Kambiri.jpeg"
-import jswie from "../Assets/council/anika.PNG"
+import Chair from "../Assets/council/om.jpeg"
+import vchair from "../Assets/council/aashna.jpeg"
+import jswie from "../Assets/council/anshita.jpeg"
+import jswie2 from "../Assets/council/ritik.jpeg"
 import { BsInstagram, BsLinkedin } from "react-icons/bs"
 
 
@@ -23,16 +24,16 @@ const Council = () => {
         </h1>
         <div className=' w-full'>
           <div className=' conti '>
-          <div class="ui-card">
+            <div class="ui-card">
               <img src={Chair} className='imgs' />
               <div class="description">
-                <h5>RISHI MAHESHWARI</h5>
+                <h5>OM SHANKER SAHAY</h5>
                 <p>CHAIRPERSON IEEE DTU WIE</p>
                 <span className='flex1'>
-                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/maheshwarixd/' target='_blank' rel='noreferrer'>
+                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/omssahay_28/' target='_blank' rel='noreferrer'>
                     <BsInstagram className='text-[20px] chairlinks' />
                   </a>
-                  <a href='https://www.linkedin.com/in/rishi-maheshwari-09199020a' aria-label="link2pb" target='_blank' rel='noreferrer'>
+                  <a href='https://www.linkedin.com/in/om-shanker-sahay-688ab5224/' aria-label="link2pb" target='_blank' rel='noreferrer'>
                     <BsLinkedin className='text-[20px] chairlinks' />
                   </a>
 
@@ -42,17 +43,17 @@ const Council = () => {
             <div class="ui-card">
               <img src={vchair} className='imgs' />
               <div class="description">
-                <h5>KAUSTUBH KAMBIRI</h5>
+                <h5>AASHNA MITTAL</h5>
                 <p className='h52'>
-                <p>
-                VICE-CHAIRPERSON IEEE DTU WIE
-                </p>
+                  <p>
+                    VICE-CHAIRPERSON IEEE DTU WIE
+                  </p>
                 </p>
                 <span className='flex1'>
-                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/maheshwarixd/' target='_blank' rel='noreferrer'>
+                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/_frohes_leben_/' target='_blank' rel='noreferrer'>
                     <BsInstagram className='text-[20px] chairlinks' />
                   </a>
-                  <a href='https://www.linkedin.com/in/rishi-maheshwari-09199020a' aria-label="link2pb" target='_blank' rel='noreferrer'>
+                  <a href='https://www.linkedin.com/in/ashna-mittal-541201229/' aria-label="link2pb" target='_blank' rel='noreferrer'>
                     <BsLinkedin className='text-[20px] chairlinks' />
                   </a>
 
@@ -62,20 +63,36 @@ const Council = () => {
             <div class="ui-card">
               <img src={jswie} className='imgs' />
               <div class="description">
-                <h5>ANIKA PASSI</h5>
+                <h5>ANSHITA GARG</h5>
                 <p>SECRETARY, IEEE DTU WIE</p>
                 <span className='flex1'>
-                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/maheshwarixd/' target='_blank' rel='noreferrer'>
+                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/anshita3_/' target='_blank' rel='noreferrer'>
                     <BsInstagram className='text-[20px] chairlinks' />
                   </a>
-                  <a href='https://www.linkedin.com/in/rishi-maheshwari-09199020a' aria-label="link2pb" target='_blank' rel='noreferrer'>
+                  <a href='https://www.linkedin.com/in/anshita-garg-8286a5231/' aria-label="link2pb" target='_blank' rel='noreferrer'>
                     <BsLinkedin className='text-[20px] chairlinks' />
                   </a>
 
                 </span>
               </div>
             </div>
-            
+            <div class="ui-card">
+              <img src={jswie2} className='imgs' />
+              <div class="description">
+                <h5>RITIK GUPTA</h5>
+                <p>SECRETARY, IEEE DTU WIE</p>
+                <span className='flex1'>
+                  <a className='chairclassa' aria-label="link18b" href='https://www.instagram.com/ritikk_gupta_/' target='_blank' rel='noreferrer'>
+                    <BsInstagram className='text-[20px] chairlinks' />
+                  </a>
+                  <a href='https://www.linkedin.com/in/ritik-gupta-amlo/' aria-label="link2pb" target='_blank' rel='noreferrer'>
+                    <BsLinkedin className='text-[20px] chairlinks' />
+                  </a>
+
+                </span>
+              </div>
+            </div>
+
             {/*  
             <div className='concontainer'>
               <div className='chair'>

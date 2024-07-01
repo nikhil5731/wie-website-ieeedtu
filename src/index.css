@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .box2 div:nth-child(1) {
     position: relative;
     width: 60px;
@@ -8,23 +9,45 @@
     background-color: transparent;
     border-radius: 16px;
     z-index: 100;
-    margin-top:10px;
-    margin-left:10px;
+    margin-top: 10px;
+    margin-left: 10px;
     /* display:none; */
     /* border: 6px solid rgb(245, 128, 226); */
- }  
-.box2{
+}
+
+@media screen and (max-width: 425px) {
+    .navname2 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .navname2 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .navname2 {
+        font-size: 20px;
+    }
+}
+
+
+
+.box2 {
     width: 60px;
     height: 60px;
-    left:var(--ik);
-    top:100px;
-    border-radius:100%;
+    left: var(--ik);
+    top: 100px;
+    border-radius: 100%;
     background-color: transparent;
     position: absolute;
-    border:5px dotted rgb(242, 94, 255);
+    border: 5px dotted rgb(242, 94, 255);
     animation: animate23 1s linear normal forwards;
     z-index: 99999;
 }
+
 @keyframes animate23 {
     0% {
         display: block;
@@ -37,12 +60,14 @@
         opacity: 0;
     }
 }
-.abso{
-    height:100%;
-    width:100%;
+
+.abso {
+    height: 100%;
+    width: 100%;
     position: absolute;
 }
+
 ::-webkit-scrollbar {
     /* width: 10px; */
     display: none;
-  }
+}

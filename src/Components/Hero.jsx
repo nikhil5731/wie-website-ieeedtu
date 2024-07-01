@@ -110,9 +110,9 @@ const Hero = () => {
                                 MENU
                             </p>
                         </p>
-                        <p onClick={() => { ccross(false) }} className={`menuicon2 flex ${!cross?'hidden':''}`}>
-                            <ImCross className={`menuiconb ${!cross?'hidden':''}`} />
-                            <p className={`menuicona text-[1.3rem] ${!cross?'hidden':''}`}> 
+                        <p onClick={() => { ccross(false) }} className={`menuicon2 flex ${!cross ? 'hidden' : ''}`}>
+                            <ImCross className={`menuiconb ${!cross ? 'hidden' : ''}`} />
+                            <p className={`menuicona text-[1.3rem] ${!cross ? 'hidden' : ''}`}>
                                 CLOSE
                             </p>
                         </p>
