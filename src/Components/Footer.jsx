@@ -75,10 +75,10 @@ const Footer = () => {
               </div>
               <div>
                 <p className='text-[rgb(253,246,249)] mx-4 text-md bsc'>
-                  Anshita Garg
+                  Om Shanker Sahay
                 </p>
                 <p className='text-[rgb(253,246,249)] mx-4 text-md bsc'>
-                  <a aria-label="+91 85888 19718" href='https://wa.me/+918588819718?text=' target='_blank' rel='noreferrer' className='hover:text-[#08D4F8]'>+91 98991 33065</a>
+                  <a aria-label="+91 77339 12072" href='https://wa.me/+917733912072?text=' target='_blank' rel='noreferrer' className='hover:text-[#08D4F8]'>+91 77339 12072</a>
                 </p>
               </div>
             </div>
@@ -88,10 +88,10 @@ const Footer = () => {
               </div>
               <div>
                 <p className='text-[rgb(253,246,249)] mx-4 text-md bsc'>
-                  Aanya Tiwari
+                  Ashna Mittal
                 </p>
                 <p className='text-[rgb(253,246,249)] mx-4 text-md bsc'>
-                  <a aria-label="+91 95600 83110" href='https://wa.me/+919560083110?text=' target='_blank' rel='noreferrer' className='hover:text-[#08D4F8]'>+91 88269 78278</a>
+                  <a aria-label="+91 96258 93430" href='https://wa.me/+919625893430?text=' target='_blank' rel='noreferrer' className='hover:text-[#08D4F8]'>+91 96258 93430</a>
                 </p>
               </div>
             </div>
