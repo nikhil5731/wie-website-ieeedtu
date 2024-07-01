@@ -134,7 +134,7 @@ const Hero = () => {
 
                     <div className='heading-hero'>
                         <h1 className='heading-main'>
-                            <span className='first-letter'>W</span>omen <br /><span className='first-letter'>I</span>n <br /><span className='first-letter'>E</span>ngineering
+                            <span className='first-letter'>W</span>omen <br /><span className='first-letter'>&#160;I</span>n <br /><span className='first-letter'>E</span>ngineering
                         </h1>
                         <div className='hero-subheading'>DELHI TECHNOLOGICAL<br /> UNIVERSITY</div>
                     </div>
