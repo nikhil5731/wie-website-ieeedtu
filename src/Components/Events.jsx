@@ -59,7 +59,7 @@ const Events = () => {
                   <img
                     src={eval("imgs." + event.image)}
                     alt={event.title}
-                    className="w-64 h-64 mx-auto event-img eveimg"
+                    className="w-64 mx-auto event-img eveimg"
                   />
                   <h2 className="text-[rgba(253,246,249,1)] text-lg font-bold font-mono mt-2 event-head">
                     {event.title}
